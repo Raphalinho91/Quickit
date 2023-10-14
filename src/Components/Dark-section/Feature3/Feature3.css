@@ -1,0 +1,360 @@
+.Feature3{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 100px 0px;
+width: 100%;
+height: 802px;
+}
+.content4{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+width: 100%;
+height: 662px;
+}
+.text{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 25px;
+width: 570px;
+height: 151px;
+}
+.text h1{
+    width: 102px;
+height: 16px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.text h2{
+    width: 570px;
+height: 110px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 55px;
+color: #FFFFFF;
+}
+.text span{
+    color: #205BF1;
+}
+.div{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 100px;
+width: 1170px;
+height: 471px;
+}
+.image3{
+    width: 470px;
+height: 430px;
+}
+.right-side{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 30px;
+width: 470px;
+height: 471px;
+}
+.box11{
+    display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 10px 30px;
+gap: 15px;
+isolation: isolate;
+width: 470px;
+height: 137px;
+border-radius: 8px;
+}
+.box11 .barre1{
+width: 2px;
+background: #205BF1;
+}
+.box11 h1{
+    width: 410px;
+height: 30px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+.box11 span{
+    width: 410px;
+height: 72px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+opacity: 0.7;
+}
+.box12{
+    display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 10px 30px;
+gap: 15px;
+isolation: isolate;
+width: 470px;
+height: 137px;
+border-radius: 8px;
+}
+.box12 .barre2{
+    width: 2px;
+    background: #FFFFFF;
+    opacity: 0.1;
+}
+.box12 h1{
+    width: 410px;
+height: 30px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+.box12 span{
+    width: 410px;
+height: 72px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+opacity: 0.7;
+}
+.box13{
+    display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 10px 30px;
+gap: 15px;
+isolation: isolate;
+width: 470px;
+height: 137px;
+border-radius: 8px;
+}
+.box13 .barre3{
+    width: 2px;
+    background: #FFFFFF;
+    opacity: 0.1;
+}
+.box13 h1{
+    width: 410px;
+height: 30px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+.box13 span{
+    width: 410px;
+height: 72px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+opacity: 0.7;
+}
+@media screen and (max-width: 2000px) {
+    .content4{
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .content4{
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .right-side{
+        margin-right: 100px;
+    }
+}
+@media screen and (max-width: 1070px) {
+    .content4{
+        display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+width: 738px;
+height: 662px;
+    }
+    .text{
+        display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 0px 30px;
+gap: 25px;
+width: 570px;
+height: 151px;
+margin-top: -100px;
+    }
+    .div{
+        display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 30px;
+width: 738px;
+height: 471px;
+margin-left: 150px;
+    }
+}
+@media screen and (max-width: 900px){
+    .text{
+        margin-top: -400px;
+    }
+}
+@media screen and (max-width: 800px){
+    .div{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 750px){
+    .content4{
+        display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+width: 335px;
+height: 954px;
+    }
+    .text{
+        display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+width: 335px;
+height: 108px;
+margin-left: -100px;
+margin-top: 0px;
+    }
+    .div{
+        display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 30px;
+width: 335px;
+height: 816px;
+    }
+    .right-side{
+        display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+width: 335px;
+height: 481px;
+margin-top: -600px;
+    }
+    .image3 img{
+        width: 335px;
+        height: 305px;
+        margin-top: 400px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .text{
+        margin-left: -100px;
+        margin-top: -300px;
+    }
+    .text h1{
+        width: 102px;
+height: 16px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+    }
+    .text h2{
+        width: 335px;
+height: 72px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 28px;
+line-height: 130%;
+color: #FFFFFF;
+    }
+    .div{
+        margin-top: -80px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .text{
+        margin-left: -40px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .text{
+        margin-left: -20px;
+        margin-top: -450px;
+    }
+    .box11 h1{
+        margin-right: -20px;
+    }
+    .box12 h1{
+        margin-right: -20px;
+    }
+    .box13 h1{
+        margin-right: -20px;
+    }
+    .right-side span{
+        width: 355px;
+        height: 72px;
+        font-family: 'Urbanist', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        margin-right: 35px;
+    }
+}

@@ -1,0 +1,140 @@
+.background {
+    display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+isolation: isolate;
+position: absolute;
+width: 100%;
+height: auto;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+}
+
+.Forme1{
+    position: absolute;
+width: 642.57px;
+height: 574px;
+left: 0px;
+top: 1806.21px;
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+}
+
+.Forme2{
+    position: absolute;
+width: 1070.87px;
+height: 1116.1px;
+right: -16px;
+top: 0px;
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+}
+
+@media screen and (max-width: 1088px) {
+    .Forme1{
+        position: absolute;
+        width: 642.57px;
+        height: 630px;
+    }
+    .Forme2{
+        display: flex;
+        width: 688px;
+        height: 780px;  
+    }
+}
+
+@media screen and (min-width: 834px) {
+    .Forme1-1{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .background{
+        display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+isolation: isolate;
+position: absolute;
+width: 768px;
+height: auto;
+left: 0px;
+top: 0px;
+    }
+    .Forme1{
+        position: absolute;
+width: 642.57px;
+height: 630px;
+left: 0px;
+top: 1616.21px;
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+    }
+
+    .Forme2{
+        display: none;
+    }
+
+
+    .Forme1-1{
+        display: flex;
+        width: 967.58px;
+        height: 1000px;
+        margin-top: 342.78px;
+        margin-right: -135px;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .Forme1-2{
+        display: none;
+    }
+    .Forme22{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .background{
+        display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+isolation: isolate;
+position: absolute;
+width: 868px;
+height: auto;
+left: 0px;
+top: 0px;
+    }
+    .Forme1-1{
+        display: none;
+    }
+    .Forme1{
+        display: none;
+    }
+    .Forme1-2{
+        display: flex;
+        width: 867.58px;
+        height: 980px;
+        margin-top: 342.78px;
+    }
+    .Forme22{
+        display: flex;
+        width: 868px;
+        height: 364.55px;
+        margin-top: 606.21px;
+    }
+}

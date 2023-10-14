@@ -1,0 +1,469 @@
+.left-side{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+margin-top: 224px;
+margin-left: 135px;
+gap: 60px;
+width: 50%;
+height: 402px;
+}
+
+.left-side span{
+    width: 730px;
+height: 188px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 78px;
+line-height: 94px;
+color: #FFFFFF;
+z-index: 11;
+}
+
+.left-side p{
+    width: 670px;
+height: 60px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+z-index: 11;
+}
+
+.buttons{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+width: 406px;
+height: 64px;
+}
+
+.btn2{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+gap: 10px;
+width: 197px;
+height: 64px;
+background: #205BF1;
+color: #FFFFFF;
+font-family: 'Urbanist', sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+box-shadow: 0px 5px 15px rgba(32, 91, 241, 0.2);
+border: none;
+z-index: 11;
+}
+
+.btn3{
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px 20px;
+gap: 15px;
+width: 187px;
+height: 64px;
+background: rgba(255, 255, 255, 0.1);
+color: #FFFFFF;
+font-family: 'Urbanist', sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+z-index: 11;
+}
+
+.Images{
+    position: absolute;
+height: 570px;
+left: 50%;
+right: 0;
+top: 296px;
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 11;
+}
+
+.Image1{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+position: absolute;
+width: 170px;
+height: 200px;
+right: 0px;
+top: 362px;
+background: #FFFFFF;
+box-shadow: -8px -8px 0px rgba(0, 0, 0, 0.15), 8px 8px 0px rgba(31, 32, 37, 0.15), 20px 20px 100px rgba(0, 0, 0, 0.4);
+}
+
+.Image2{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+position: absolute;
+width: 170px;
+height: 180px;
+left: 50px;
+top: 310px;
+background: #FFFFFF;
+box-shadow: -8px -8px 0px rgba(0, 0, 0, 0.15), 8px 8px 0px rgba(31, 32, 37, 0.15), 20px 20px 100px rgba(0, 0, 0, 0.4);
+}
+
+.Image3{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+position: absolute;
+width: 150px;
+height: 70px;
+left: 203px;
+top: -8px;
+background: #FFFFFF;
+box-shadow: -8px -8px 0px rgba(0, 0, 0, 0.15), 8px 8px 0px rgba(31, 32, 37, 0.15), 20px 20px 100px rgba(0, 0, 0, 0.4);
+}
+
+.Image4{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+position: absolute;
+width: 340px;
+height: 220px;
+left: 455px;
+top: 142px;
+background: #FFFFFF;
+box-shadow: -8px -8px 0px rgba(0, 0, 0, 0.15), 8px 8px 0px rgba(31, 32, 37, 0.15), 20px 20px 100px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 2000px) {
+    .Image4{
+        top: 120px;
+    }
+    .Image1{
+        top: 400px;
+        right: 50px;
+    }
+}
+@media screen and (max-width: 1650px) {
+    .Image4{
+        left: 300px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .Image2{
+        left: 0px;
+        top: 350px;
+    }
+    .Image4{
+        left: 250px;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .Image2{
+        top: 400px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .Image4{
+        top: 430px;  
+        left: 0px;
+    }
+    .Image2{
+        top: 200px;
+        left: 300px;
+    }
+    .Image3{
+        left: 400px;
+        top: 20px;
+    }
+    .Image1{
+        right: 10px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .Image1{
+        top: -20px;
+    }
+    .Image3{
+        top: 300px;
+        left: 100px;
+    }
+    .Image4{
+        left: 100px;
+    }
+    .Image2{
+        left: 300px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .left-side{
+        display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 50px;
+width: 730px;
+height: 392px;
+    }
+    .left-side span{
+        width: 708px;
+height: 188px;
+margin-top: -144px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 78px;
+line-height: 94px;
+text-align: center;
+    }
+    .left-side p{
+        width: 708px;
+height: 60px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+    }
+    .buttons{
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+width: 406px;
+height: 64px;
+    }
+    .Images{
+        width: 810px;
+        height: 350px;
+    }
+    .Image1{
+width: 10px;
+height: 70px;
+left: 250px;
+top: 350px;
+    }   
+    .Image2{
+width: 170px;
+height: 180px;
+    left: -400px;
+top: 450px;
+    }
+    .Image3{
+width: 170px;
+height: 70px;
+left: -250px;
+top: 320px;
+    }
+    .Image4{
+width: 340px;
+height: 220px;
+left: -150px;
+top: 470px;
+    }
+}
+@media screen and (max-width: 870px) {
+    .left-side span{
+        margin-left: -120px;
+    }
+    .left-side p{
+        margin-left: -120px;
+    }
+    .buttons{
+        margin-left: -140px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .Image1{
+        left: 150px;
+        top: 300px;
+    }
+    .Image2{
+        left: -320px;
+        top: 300px;
+    }
+    .Image3{
+        left: -100px;
+        top: 350px;
+    }
+    .Image4{
+        left: -200px;
+        top: 520px;
+    }
+    .left-side span{
+        margin-left: -200px;
+    }
+    .left-side p{
+        margin-left: -200px;
+    }
+    .buttons{
+        margin-left: -200px;
+    }
+}
+@media screen and (max-width: 750px){
+    .left-side{
+        display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 50px;
+width: 335px;
+height: 420px;
+    }
+    .left-side span{
+        width: 335px;
+height: 144px;
+margin-left: 100px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+    }
+    .left-side p{
+        width: 335px;
+height: 78px;
+margin-left: 100px;
+font-family: 'Urbanist', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+    }
+    .buttons{
+        display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+width: 177px;
+height: 138px;
+margin-left: 100px;
+    }
+    .Image4{
+width: 220px;
+height: 140px;
+    }
+    .Image2{
+        width: 140px;
+        height: 140px;
+    }
+    .Image3{
+width: 130px;
+height: 60px;
+    }
+    .Image1{
+width: 140px;
+height: 140px;
+    }
+}
+@media screen and (max-width: 620px){
+    .Image1{
+        left: 90px;
+        top: 350px;
+    }
+    .Image3{
+        left: -240px;
+        top: 380px;
+    }
+    .Image4{
+        left: -180px;
+        top: 570px;
+    }
+    .Image2{
+        display: none;
+    }
+    .left-side span{
+        margin-left: 0px;
+    }
+    .left-side p{
+        margin-left: 0px;
+    }
+    .buttons{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 550px){
+    .left-side span{
+        margin-left: -50px;
+    }
+    .left-side p{
+        margin-left: -50px;
+    }
+    .buttons{
+        margin-left: -50px;
+    }
+    .Image1{
+        left: 30px;
+    }
+    .Image3{
+        left: -200px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .left-side span{
+        margin-left: -100px;
+    }
+    .left-side p{
+        margin-left: -100px;
+    }
+    .buttons{
+        margin-left: -100px;
+    }
+}
+@media screen and (max-width: 415px){
+    .Image1{
+        left: 0;
+    }
+    .Image3{
+        left: -180px;
+    }
+    .left-side span{
+        margin-left: -200px;
+    }
+    .left-side p{
+        margin-left: -200px;
+    }
+    .buttons{
+        margin-left: -200px;
+    }
+}
+@media screen and (max-width: 375px){
+    .left-side span{
+        margin-left: -220px;
+    }
+    .left-side p{
+        margin-left: -220px;
+    }
+    .buttons{
+        margin-left: -220px;
+    }
+}

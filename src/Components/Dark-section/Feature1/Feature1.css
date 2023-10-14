@@ -1,0 +1,81 @@
+.Feature1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 85px;
+    gap: 10px;
+    width: 100%;
+    height: 1020px;
+}
+.image{
+    width: 1270px;
+height: 880px;
+filter: drop-shadow(-16px -16px 0px rgba(0, 0, 0, 0.5)) drop-shadow(20px 20px 100px rgba(0, 0, 0, 0.4)) drop-shadow(16px 16px 0px rgba(0, 0, 0, 0.5));
+}
+.image img{
+    margin-top: 200px;
+    z-index: 11;
+}
+@media screen and (max-width: 1350px) {
+    .image img{
+        width: 1008px;
+        height: auto;
+        margin: 10% 10%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .image img{
+        width: 908px;
+        height: auto;
+        margin: 5% 14%;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .image img{
+        width: 808px;
+        height: auto;
+        margin: 5% 18%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .image img{
+        width: 708px;
+        height: auto;
+        margin: 5% 22%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .image img{
+        width: 608px;
+        height: auto;
+        margin: 0% 25%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .image img{
+        width: 508px;
+        height: auto;
+        margin: 5% 30%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .image img{
+        width: 408px;
+        height: auto;
+        margin: 0% 34%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .image img{
+        width: 408px;
+        height: auto;
+        margin: -5% 34%;
+    }
+}
+@media screen and (max-width: 430px) {
+    .image img{
+        width: 335px;
+        height: auto;
+        margin: -5% 37%;
+    }
+}

@@ -1,0 +1,32 @@
+.white-section{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+width: 100%;
+height: 1470px;
+left: 0px;
+margin-top: -200px;
+background-color: #FFFFFF;
+}
+@media screen and (max-width: 1000px) {
+    .white-section{
+        margin-top: -300px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .white-section{
+        margin-top: -500px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .white-section{
+        margin-top: -100px;
+        height: 2100px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .white-section{
+        margin-top: -300px;
+    }
+}
